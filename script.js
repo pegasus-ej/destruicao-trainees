@@ -15,6 +15,10 @@ function mostrarMensagem() {
 
     let mensagem = document.getElementById("mensagem");
 
+    if (bugsDestruidos === 0) {
+        mensagem.textContent =
+            "Bem vindo! Clique no botão para começar a destruir!";
+    }
     if (bugsDestruidos === 5) {
         mensagem.textContent =
             "🔥 Você está pegando o jeito!";
