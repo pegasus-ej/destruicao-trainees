@@ -1,13 +1,13 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(135deg, #1e1e2f, #2c2c54);
-    color: white;
-    text-align: center;
+    background: linear-gradient(135deg, #3a3aff, #2c2c54);
+    color: rgb(255, 0, 157);
+    text-align: right;
 }
 
 .container {
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 h1 {
@@ -17,11 +17,11 @@ h1 {
 
 p {
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
 }
 
 button {
-    background-color: #ff4757;
+    background-color: #ff7300;
     border: none;
     padding: 15px 30px;
     font-size: 18px;
@@ -32,7 +32,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff6b81;
+    background-color: #53e200;
     transform: scale(1.05);
 }
 
